@@ -12,7 +12,7 @@ $criarTabela = "CREATE TABLE IF NOT EXISTS AVIAO(
     cdp TEXT,
     velomax TEXT,
     autonomia TEXT,
-    primary key (codigo))";
+    primary key (modelo))";
 
 
 $banco->query($criarTabela);
