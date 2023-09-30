@@ -2,10 +2,12 @@
 require "conexao.php";
 require "aviao.php";
 require "RepositorioAviao.php";
-$repAutor = new RepositorioAviao();
+$repAviao = new RepositorioAviao();
 
-$autor1 = new aviao("Cmpaerea","cdp ","velomax","autonomia","modelo");
+$aviao = new aviao("combi","ícaro","70","900km/h","4200km");
 
-$repAutor->cadastrar($banco,$aviao);
+$repAviao->cadastrar($banco,$aviao);
 
 ?>s
+
+    
